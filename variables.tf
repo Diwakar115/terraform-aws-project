@@ -10,6 +10,6 @@ variable "instance_type" {
 
 variable "bucket_name" {
   type        = string
-  default     = "myterraformawsbucket"
+  default     = "myterraformawsbucket1889"
 }
 
