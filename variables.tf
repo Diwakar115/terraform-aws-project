@@ -8,8 +8,8 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "bucket_name" {
+/*variable "bucket_name" {
   type        = string
-  default     = "myterraformawsbucket052000"
-}
+  default     = "myterraformbucket258"
+}*/
 
