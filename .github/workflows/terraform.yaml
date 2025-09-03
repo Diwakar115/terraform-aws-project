@@ -53,6 +53,10 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
+      # Terraform Import Existing Bucket
+      - name: Terraform Import S3 Bucket
+        run: terraform import aws_s3_bucket.my_bucket myterraformawsbucket052000
+
       # Terraform Plan
       - name: Terraform Plan
         run: terraform plan -out=tfplan
