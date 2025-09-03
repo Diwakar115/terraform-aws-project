@@ -4,11 +4,11 @@ resource "aws_instance" "my_ec2" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "Terraform-EC2"
+    Name = "Terraformp1"
   }
 }
 
 # S3 Bucket
-resource "aws_s3_bucket" "my_bucket" {
+/*resource "aws_s3_bucket" "my_bucket" {
   bucket = var.bucket_name
-}
+}*/
